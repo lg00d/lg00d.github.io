@@ -6,8 +6,10 @@
 
 body {
     margin: 0;
-    font-family: ;
-        background-image: ;
+    font-family: sans-serif;
+    background:  var(--clr-light);
+    color: var(--clr-dark);
+    font-size: 1rem;
 }
 
 
