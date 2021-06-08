@@ -92,3 +92,19 @@ h1, h2, h3 {
     padding: 30px;
     margin: 0;
   }
+
+
+  /* -------- Elements ------ */
+
+  img {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px;
+  }
+
+  /* ------ mod styles ------ */
+
+  .section-border {
+      padding-top: 80px;
+      border-top: 2px;
+  }
