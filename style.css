@@ -6,24 +6,22 @@
 
 body {
     margin: 0;
-    font-family: sans-serif;
-    background:  var(--clr-light);
-    color: var(--clr-dark);
+    font-family: sans-serif, monospace;
+    background-color: white;
     font-size: 1rem;
 }
 
 
 header {
     height: 140px;
-    background-color: ;
-    background-image: ;
+    background-color:#00fffb ;
 
 }
 
 .wrapper {
-    font-family: ;
+    font-family:sans-serif, monospace ;
     font-size: 72px;
-    color: ;
+    color: rgb(33, 30, 30);
     text-align: center;
     letter-spacing: -3;
     margin: 0;
@@ -31,16 +29,15 @@ header {
 }
 
 header h2 {
-	font-family: ;
-	color: ;
+	font-family: sans-serif, monospace;
+	color: rgb(33, 30, 30);
 	margin: 0px;
 	font-size: 18px;
 	text-align: center;
 }
 
 footer {
-	background-color: ;
-	background-image: ;
+	background-color:rgb(33, 30, 30) ;
 
 }
 
@@ -54,9 +51,11 @@ section {
 
 /* ------ Typography ------- */
 
-h1, h2, h3 {
-    font-family: ;
-      color: ;
+h1,
+h2,
+h3 {
+    font-family: sans-serif, monospace;
+      color: #00fffb;
     text-align: center;
     font-weight: 500;
   }
@@ -66,7 +65,7 @@ h1, h2, h3 {
   h3 { font-size: 18px; }
   
   p, li {
-   font-family: ;
+   font-family: sans-serif, monospace;
    line-height: 1.5em;
    margin-bottom: 0;
   }
@@ -75,10 +74,10 @@ h1, h2, h3 {
       font-weight: 700;
       text-decoration: none;	
   }
-  a:link { color: ; }
-  a:visited { color: ; }
-  a:hover { color:; }
-  a:active { color: ; }
+  a:link { color: blue; }
+  a:visited { color: purple; }
+  a:hover { color:grey; }
+  a:active { color: green; }
   a:hover {
       text-decoration: underline;	
   }
@@ -89,7 +88,7 @@ h1, h2, h3 {
   }
   
   footer p {
-      color: ;	
+      color: #00fffb;	
       text-align: center;
     padding: 30px;
     margin: 0;
@@ -99,6 +98,7 @@ h1, h2, h3 {
   /* -------- Elements ------ */
 
   img {
+      display: block;
       width: 100%;
       border-radius: 8px;
       border: 1px;
