@@ -6,38 +6,38 @@
 
 body {
     margin: 0;
-    font-family: sans-serif, monospace;
-    background-color: rgb(253, 251, 251);
-    font-size: 1rem;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url(images/backgrounds/subtle_white_mini_waves.jpg);
+
 }
 
 
 header {
-    height: 140px;
-    background-color:rgb(33, 30, 30) ;
+    background-color: #403933;
+    background-image: url(images/backgrounds/subtle_brown_mini_waves.jpg);
+    margin-bottom: 40px;
 
 }
 
 .wrapper {
-    font-family:sans-serif, monospace ;
-    font-size: 72px;
+    font-family: 'Nanum Pen Script', cursive;
+  font-size: 72px;
     color: #00fffb;
     text-align: center;
     letter-spacing: -3;
     margin: 0;
-    padding: 20px 0 0 0;
+    padding: 20px 0;
 }
 
-header h2 {
-	font-family: sans-serif, monospace;
-	color: rgb(33, 30, 30);
-	margin: 0px;
-	font-size: 18px;
-	text-align: center;
+main {
+    padding: 20px 0;
 }
 
 footer {
 	background-color:rgb(33, 30, 30) ;
+    background-image: url(images/backgrounds/subtle_brown_mini_waves.jpg);
+  margin-top: 40px;
+  margin-bottom: 0;
 
 }
 
@@ -57,7 +57,7 @@ h3 {
     font-family: 'Montserrat', sans-serif;
       color: rgb(33, 30, 30);
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
   }
   
   h1 { font-size: 28px; }
@@ -65,7 +65,7 @@ h3 {
   h3 { font-size: 18px; }
   
   p, li {
-   font-family: sans-serif, monospace;
+   font-family: 'Montserrat', monospace;
    line-height: 1.5em;
    margin-bottom: 0;
   }
