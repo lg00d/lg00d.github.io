@@ -7,21 +7,21 @@
 body {
     margin: 0;
     font-family: sans-serif, monospace;
-    background-color: white;
+    background-color: rgb(253, 251, 251);
     font-size: 1rem;
 }
 
 
 header {
     height: 140px;
-    background-color:#00fffb ;
+    background-color:rgb(33, 30, 30) ;
 
 }
 
 .wrapper {
     font-family:sans-serif, monospace ;
     font-size: 72px;
-    color: rgb(33, 30, 30);
+    color: #00fffb;
     text-align: center;
     letter-spacing: -3;
     margin: 0;
@@ -54,8 +54,8 @@ section {
 h1,
 h2,
 h3 {
-    font-family: sans-serif, monospace;
-      color: #00fffb;
+    font-family: 'Montserrat', sans-serif;
+      color: rgb(33, 30, 30);
     text-align: center;
     font-weight: 500;
   }
