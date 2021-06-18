@@ -1,0 +1,112 @@
+
+
+
+/* --------- General Styles ------ */
+
+
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image:(portf-images/background-img.jpg);
+
+}
+
+
+header {
+    background-color: #403933;
+    background-image: url(images/backgrounds/subtle_brown_mini_waves.jpg);
+    margin-bottom: 40px;
+
+}
+
+.wrapper {
+    font-family: 'Nanum Pen Script', cursive;
+  font-size: 72px;
+    color: #00fffb;
+    text-align: center;
+    letter-spacing: -3;
+    margin: 0;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px 0;
+}
+
+footer {
+	background-color:rgb(33, 30, 30) ;
+    background-image: url(images/backgrounds/subtle_brown_mini_waves.jpg);
+  margin-top: 40px;
+  margin-bottom: 0;
+
+}
+
+section {
+    padding: 0 25%;
+    margin: 80px 0;
+}
+
+
+
+
+/* ------ Typography ------- */
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+      color: rgb(33, 30, 30);
+    text-align: center;
+    font-weight: 400;
+  }
+  
+  h1 { font-size: 28px; }
+  h2 { font-size: 26px; }
+  h3 { font-size: 18px; }
+  
+  p, li {
+   font-family: 'Montserrat', monospace;
+   line-height: 1.5em;
+   margin-bottom: 0;
+  }
+  
+  a {
+      font-weight: 700;
+      text-decoration: none;	
+  }
+  a:link { color: blue; }
+  a:visited { color: purple; }
+  a:hover { color:grey; }
+  a:active { color: green; }
+  a:hover {
+      text-decoration: underline;	
+  }
+  
+  em {
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  footer p {
+      color: #00fffb;	
+      text-align: center;
+    padding: 30px;
+    margin: 0;
+  }
+
+
+  /* -------- Elements ------ */
+
+  img {
+      display: block;
+      width: 25%;
+      border-radius: 8px;
+      border: 1px;
+  }
+
+  /* ------ mod styles ------ */
+
+  .section-border {
+      padding-top: 80px;
+      border-top: 2px;
+  }
