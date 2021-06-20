@@ -37,14 +37,14 @@ main {
 footer {
 	background-color:rgb(33, 30, 30) ;
   
-  margin-top: 100px;
+  margin-top: 40px;
   margin-bottom: 0;
 
 }
 
 section {
     padding: 0 25%;
-    margin: 80px 0;
+    margin: 20px 0;
 }
 
 
@@ -67,7 +67,7 @@ h3 {
   
   p, li {
    font-family: 'Montserrat', monospace;
-   line-height: 1.5em;
+   line-height: 2.5em;
    margin-bottom: 0;
   }
   
@@ -89,8 +89,8 @@ h3 {
   }
   
   footer {
-      background-color:rgb(33, 30, 30);;	
-      text-align: center;
+    background-color: #ee9de3;
+    text-align: center;	
     padding: 30px;
     margin: 0;
   }
@@ -101,7 +101,7 @@ h3 {
   /* ------ classes ------ */
 
   .section-border {
-      padding-top: 80px;
+      padding-top: 0px;
       border-top: 2px;
   }
 
@@ -117,7 +117,7 @@ h3 {
   /* -------- spacing ------*/
 
   .space-sm {
-    height: 50px;
+    height: 0px;
     width: auto;
 }
 .space-md {
