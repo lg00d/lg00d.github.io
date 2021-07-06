@@ -20,6 +20,9 @@ header {
 
 }
 
+.nav-header:link {
+  color: blue;
+}
 .wrapper {
     font-family: 'Montserrat';
   font-size: 72px;
@@ -91,7 +94,7 @@ h3 {
   footer {
     background-color: #ee9de3;
     text-align: center;	
-    padding: 30px;
+    padding: 100px;
     margin: 0;
   }
 
