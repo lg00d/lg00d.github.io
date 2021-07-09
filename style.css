@@ -17,6 +17,8 @@ header {
 
   margin-bottom: 40px;
   text-align: center;
+  font-size: 19px;
+  font-family: 'Montserrat', monospace;
 
 }
 
@@ -117,15 +119,7 @@ width: 20%;
 /* -------- spacing ------*/
 
 .space-sm {
-  height: 0px;
-  width: auto;
-}
-.space-md {
-  height: 100px;
-  width: auto;
-}
-.space-lg {
-  height: 200px;
+  height: 10px;
   width: auto;
 }
 
