@@ -17,11 +17,12 @@ header {
 
   margin-bottom: 40px;
   text-align: center;
-  font-size: 19px;
-  font-family: 'Montserrat', monospace;
 
 }
 
+.nav-header:link {
+color: blue;
+}
 .wrapper {
   font-family: 'Montserrat';
 font-size: 72px;
@@ -119,7 +120,15 @@ width: 20%;
 /* -------- spacing ------*/
 
 .space-sm {
-  height: 10px;
+  height: 0px;
+  width: auto;
+}
+.space-md {
+  height: 100px;
+  width: auto;
+}
+.space-lg {
+  height: 200px;
   width: auto;
 }
 
